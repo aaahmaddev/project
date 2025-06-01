@@ -1,0 +1,28 @@
+.signup{
+    height: 100vh;
+    overflow: hidden;
+    
+}
+.input-signup{
+    width: 559px;
+    height: 60px;
+    border-radius: 8px;
+}
+.input-img{
+    position: absolute;
+    left: 2%;
+}
+.signup-right{
+    position: relative  ;
+    transform: translateY(15%);
+    
+}
+
+.signup-button{
+    width: 129px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #FF9090;
+    border: none;
+    color: #fff;
+}

@@ -1,28 +1,47 @@
-.signup{
+.signup-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
-    overflow: hidden;
-    
-}
-.input-signup{
-    width: 559px;
-    height: 60px;
-    border-radius: 8px;
-}
-.input-img{
-    position: absolute;
-    left: 2%;
-}
-.signup-right{
-    position: relative  ;
-    transform: translateY(15%);
-    
+    user-select: none;
 }
 
-.signup-button{
+.input-img {
+    position: absolute;
+    margin-left: 1%;
+}
+
+.signup-button {
     width: 129px;
     height: 60px;
     border-radius: 5px;
     background-color: #FF9090;
     border: none;
     color: #fff;
+}
+
+.signup-button:hover {
+    background-color: #fff;
+    color: #FF9090;
+    transition: 0.3s;
+    border: 1px solid #FF9090;
+}
+
+.signup-checkbox-l {
+    cursor: pointer;
+}
+
+.signup-chescbox-i {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #565454;
+    border-radius: 0%;
+}
+
+.signup-input {
+    width: 559px;
+    height: 60px;
+    border-radius: 8px;
+    border: 1px solid #565454;
+    padding-left: 10%;
 }

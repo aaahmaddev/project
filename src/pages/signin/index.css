@@ -1,0 +1,52 @@
+.signin {
+    user-select: none;
+}
+
+.signin-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.signin-input {
+    width: 559px;
+    height: 60px;
+    border-radius: 8px;
+    border: 1px solid #565454;
+    padding-left: 10%;
+}
+
+.signin-icon {
+    position: absolute;
+    margin-left: 1%;
+}
+
+.signin-checkbox {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #565454;
+    border-radius: 0%;
+    cursor: pointer;
+}
+
+.signin-btn {
+    width: 129px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #FF9090;
+    color: #fff;
+    border: none;
+}
+
+.signin-btn:hover {
+    background-color: #fff;
+    color: #FF9090;
+    transition: 0.3s;
+    border: 1px solid #FF9090;
+}
+
+.signin-checbox-l {
+    cursor: pointer;
+}

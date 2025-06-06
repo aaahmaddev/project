@@ -1,15 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Navbar from '../../components/navbar'
+import Sidebar from '../../components/sidebar'
 import './index.css'
-import ProfileIamge from '../../assets/images/dashboard/profile.png'
-import Searchicon from '../../assets/images/dashboard/SearchICon.png'
-import DateIcon from '../../assets/images/dashboard/dateIcon.png'
-import NotificationIcon from '../../assets/images/dashboard/NotificationsIcon.png'
-import DashIcon from '../../assets/images/dashboard/dashlogo.png'
-import ViTaskIcon from '../../assets/images/dashboard/tasckicon.png'
-import MyTaskIcon from '../../assets/images/dashboard/mytaskicon.png'
-import Settingsicon from '../../assets/images/dashboard/settingicon.png'
-import LogOutIcon from '../../assets/images/dashboard/logouticon.png'
 import PendingTaskIcon from '../../assets/images/dashboard/PendingIcon.png'
 import CompletedTaskIcon from '../../assets/images/dashboard/taskcompletedIcon.png'
 import CardPartyImg from '../../assets/images/dashboard/PartyCardImage.png'
@@ -20,38 +13,141 @@ import CardDogImg from '../../assets/images/dashboard/docImg.png'
 const index = () => {
     return (
         <>
+
+
+            <Navbar />
+
+
             <section>
-            <header>
-                <div className="header-container">
-                    <div className="header-inner d-flex align-items-center justify-content-between">
-                        <div className="header-logo">
-                            <h1 className='header-logo-text'>
-                                <span className='header-logo-span'>Dash</span>board
-                            </h1>
-                        </div>
-                        <div className="header-search d-flex align-items-center">
-                            <input className='header-input p-3' placeholder='Search your task here...' type="text" />
-                            <img src={Searchicon} />
-                        </div>
-                        <div className='header-date-box d-flex flex-wrap align-items-center gap-4'>
-                            <div className='d-flex gap-2'>
-                                <img src={NotificationIcon} />
-                                <img src={DateIcon} />
+                <div className="conatiner">
+                    <div className="sec-inner d-flex align-items-center  mt-5 justify-content-between col-8">
+
+                        <Sidebar />
+
+                        <div className="tasks-box">
+
+                            <h1>Welcome back, Sundar</h1>
+
+                            <div className='cards-box p-3 d-flex'>
+                                <div className="cards-left-box p-3">
+                                    <div className='d-flex align-items-center justify-content-between'>
+                                        <div className='d-flex'>
+                                            <img className='img-fluid' src={PendingTaskIcon} />
+                                            <p className='todo-text m-0'>To Do</p>
+                                        </div>
+                                        <div>
+                                            <div className='d-flex align-items-center gap-1'>
+                                                <span className='plus'>+</span>
+                                                <p className='text-add m-0'>Add Task</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="card-date">
+                                        06 June <span className='text-today'>• Today</span>
+                                    </div>
+
+                                    <div className="card-party p-2 mt-3">
+                                        <div className="card-party-top d-flex align-items-center justify-content-between">
+                                            <div className='d-flex gap-2 '>
+                                                <div className="card-circle mt-1">
+
+                                                </div>
+                                                <h5 className='card-party-title fw-bold m-0 col-10'>
+                                                    Attend Nischal’s Birthday
+                                                    Party
+                                                </h5>
+                                            </div>
+                                            <div className='three-circle-box d-flex align-items-center mb-5'>
+                                                <span className='card-party-span'></span>
+                                                <span className='card-party-span'></span>
+                                                <span className='card-party-span'></span>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="card-party-center d-flex align-items-center justify-content-between ps-3">
+                                            <p className="card-party-text col-7">
+                                                Buy gifts on the way and pick up cake from the bakery. (6 PM | Fresh Elements).....
+                                            </p>
+                                            <img src={CardPartyImg} />
+                                        </div>
+
+                                        <div className="card-party-bottom mt-2 ps-3 d-flex align-items-center gap-1">
+                                            <p className='me-1 m-0'>
+                                                Priority:
+                                                <span className='card-p-b-1'>
+                                                    Moderate
+                                                </span>
+                                            </p>
+                                            <p className='m-0'>
+                                                Status:
+                                                <span className='card-p-b-2'>
+                                                    Not Started
+                                                </span>
+                                            </p>
+                                            <p className='card-p-b-3 m-0'>
+                                                Created on: 20 June
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                    <div className="card-party p-2 mt-3">
+                                        <div className="card-party-top d-flex align-items-center justify-content-between">
+                                            <div className='d-flex gap-2 '>
+                                                <div className="card-circle1 mt-1">
+
+                                                </div>
+                                                <h5 className='card-party-title fw-bold m-0 col-10'>
+                                                    Landing Page Design for TravelDays
+                                                </h5>
+                                            </div>
+                                            <div className='three-circle-box d-flex align-items-center mb-5'>
+                                                <span className='card-party-span'></span>
+                                                <span className='card-party-span'></span>
+                                                <span className='card-party-span'></span>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="card-party-center d-flex align-items-center justify-content-between ps-3">
+                                            <p className="card-party-text col-7">
+                                                Get the work done by EOD and discuss with client before leaving. (4 PM | Meeting Room)
+                                            </p>
+                                            <img src={CardTravelDaysImg} />
+                                        </div>
+
+                                        <div className="card-party-bottom mt-2 ps-3 d-flex align-items-center gap-1">
+                                            <p className='me-1 m-0'>
+                                                Priority:
+                                                <span className='card-p-b-1'>
+                                                    Moderate
+                                                </span>
+                                            </p>
+                                            <p className='m-0'>
+                                                Status:
+                                                <span className='card-p-b-2-2'>
+                                                    In Progress
+                                                </span>
+                                            </p>
+                                            <p className='card-p-b-3 m-0'>
+                                                Created on: 20 June
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+
+
+
+                                </div>
                             </div>
-                            <div>
-                                <p className='header-date-text mb-0'>
-                                    Thirday
-                                    <br />
-                                    <span className='header-date-text-span'>
-                                        05/06/2025
-                                    </span>
-                                </p>
-                            </div>
+
                         </div>
                     </div>
                 </div>
-            </header>
-        </section >
+            </section>
 
         </>
     );

@@ -14,9 +14,9 @@ const index = () => {
             <Navbar />
 
 
-            <section>
-                <div className="conatiner">
-                    <div className="sec-inner d-flex align-items-center  mt-5 justify-content-between gap-5 col-8">
+            <section className='dashboard'>
+                <div className="container-fluid">
+                    <div className="sec-inner d-flex  mt-5 justify-content-between gap-5 col-8">
 
                         <Sidebar />
                         <Tasks />

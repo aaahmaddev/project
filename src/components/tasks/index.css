@@ -1,3 +1,47 @@
+:root {
+    --text-red: #F24E1E;
+    --text-pink: #ff6767;
+    --text-darkblue: #0225FF;
+    --text-blue: rgb(80, 123, 224);
+    --text-darkgray: #A1A3AB;
+    --text-gray: #747474;
+    --text-green: #05A301
+}
+
+.red {
+    color: var(--text-red);
+}
+
+.pink {
+    color: var(--text-pink);
+}
+
+.darkblue {
+    color: var(--text-darkblue);
+}
+
+.darkgray {
+    color: var(--text-darkgray);
+}
+
+.blue {
+    color: var(--text-blue);
+}
+
+.gray {
+    color: var(--text-gray);
+}
+
+.green {
+    color: var(--text-green);
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+
+
 .cards-box {
     border: 1px solid #A1A3ABA1;
 }
@@ -6,18 +50,6 @@
     border-radius: 14px;
     border: #F5F8FF;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.todo-text {
-    color: #FF6767;
-}
-
-.plus {
-    color: #F24E1E;
-}
-
-.text-today {
-    color: #A1A3AB;
 }
 
 .card-party {
@@ -49,47 +81,43 @@
     letter-spacing: 0%;
 }
 
-.card-party-text {
-    color: #747474;
-}
-
-.card-p-b-1 {
-    color: blue;
-}
-
-.card-p-b-2 {
-    color: #F21E1E;
-}
-
-.card-p-b-3 {
-    color: #A1A3AB;
-}
-
 .card-circle1 {
     width: 12px;
     height: 12px;
     border-radius: 50%;
     border: 2px solid #0225FF;
 }
-.card-p-b-2-2{
-    color: #0225FF;
-}
-.line{
+
+.line {
     width: 100%;
     height: 1px;
     border: 1px solid #A1A3AB69;
 }
-.card-task{
-    background-color: #fff;
+
+.card-task {
     width: 426px;
     height: 263px;
     border-radius: 14px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-/* .card-task-top-icon{
-    width: 17px;
-    height: 22px;
-} */
-.card-task-top-text{
-    color: #FF6767;
+
+.card-right-bottom {
+    width: 423px;
+    height: 500px;
+    border-radius: 14px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.dog-card {
+    width: 386px;
+    height: 193px;
+    border-radius: 14px;
+    border: 1px solid var(--text-darkgray);
+}
+
+.dog-card-circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid var(--text-green);
 }

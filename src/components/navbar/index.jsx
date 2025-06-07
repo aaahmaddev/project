@@ -12,18 +12,18 @@ const index = () => {
                 <div className="header-container">
                     <div className="header-inner d-flex align-items-center justify-content-between">
                         <div className="header-logo">
-                            <h1 className='header-logo-text'>
+                            <h1 className='header-logo-text pointer'>
                                 <span className='header-logo-span'>Dash</span>board
                             </h1>
                         </div>
                         <div className="header-search d-flex align-items-center">
                             <input className='header-input p-3' placeholder='Search your task here...' type="text" />
-                            <img src={Searchicon} />
+                            <img className='pointer' src={Searchicon} />
                         </div>
                         <div className='header-date-box d-flex flex-wrap align-items-center gap-4'>
                             <div className='d-flex gap-2'>
-                                <img src={NotificationIcon} />
-                                <img src={DateIcon} />
+                                <img className='pointer' src={NotificationIcon} />
+                                <img className='pointer' src={DateIcon} />
                             </div>
                             <div>
                                 <p className='header-date-text mb-0'>

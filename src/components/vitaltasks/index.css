@@ -1,0 +1,16 @@
+.v-tasks-left{
+    width: 423px;
+    height: 837px;
+    border: 1px solid #A1A3ABA1;
+    border-radius: 14px;
+}
+
+.v-task-left-line{
+    width: 43px;
+    border: 2px solid var(--text-red);
+}
+.card-dog{
+    border: 1px solid var(--text-darkgray);
+    border-radius: 14px;
+    background-color: #e7eaf1;
+}

@@ -1,0 +1,24 @@
+.navigation {
+    background-color: #FF6767;
+    border-radius: 0px 8px 8px 0px;
+}
+
+
+.v-task-boxx {
+    width: 288px;
+    height: 59px;
+    background-color: #fff;
+    color: #FF6767;
+    border-radius: 14px;
+}
+
+.dash-boxx,
+.my-task-box,
+.setting-box, 
+.logout-box {
+    width: 288px;
+    height: 59px;
+    border-radius: 14px;
+    color: #fff;
+    cursor: pointer;
+}

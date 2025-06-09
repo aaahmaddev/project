@@ -1,16 +1,11 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import Navbar from '../../components/navbar'
-import Sidebar from '../../components/sidebar'
-import Tasks from '../../components/tasks'
 import './index.css'
-
-
+import Navbar from '../../components/tnavbar'
+import Sidebar from '../../components/vsidebar'
+import VitalTask from '../../components/vitaltasks'
 const index = () => {
     return (
         <>
-
-
             <Navbar />
 
 
@@ -18,9 +13,9 @@ const index = () => {
                 <div className="container-fluid">
                     <div className="sec-inner d-flex  mt-5 justify-content-between gap-5 col-8">
 
-                        <Sidebar />
-                        <Tasks />
 
+                        <Sidebar />
+                        <VitalTask />
 
                     </div>
                 </div>

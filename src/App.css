@@ -1,1 +1,46 @@
+:root {
+    --text-red: #F24E1E;
+    --text-pink: #ff6767;
+    --text-darkblue: #0225FF;
+    --text-blue: rgb(80, 123, 224);
+    --text-darkgray: #A1A3AB;
+    --text-gray: #747474;
+    --text-green: #05A301;
+    --text-darkwhite: #F5F8FF;
+}
 
+.bgc-whitee{
+    background-color: #F5F8FF;
+}
+
+.red {
+    color: var(--text-red);
+}
+
+.pink {
+    color: var(--text-pink);
+}
+
+.darkblue {
+    color: var(--text-darkblue);
+}
+
+.darkgray {
+    color: var(--text-darkgray);
+}
+
+.blue {
+    color: var(--text-blue);
+}
+
+.gray {
+    color: var(--text-gray);
+}
+
+.green {
+    color: var(--text-green);
+}
+
+.pointer{
+    cursor: pointer;
+}

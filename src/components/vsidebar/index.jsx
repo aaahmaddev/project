@@ -15,7 +15,7 @@ const index = () => {
     return (
         <>
 
-            <div className="navigation col-4 d-flex flex-wrap align-items-center justify-content-center p-3 mt-1">
+            <div className="navigation col-3 d-flex flex-wrap align-items-center justify-content-center p-3 mt-1">
                 <div className="profile-box text-center text-white">
                     <img className='dash-profile-img mb-4' src={ProfileIamge} />
                     <h5 className='prfile-name m-0'>Sundar Gurung</h5>

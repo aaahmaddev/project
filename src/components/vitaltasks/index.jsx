@@ -140,7 +140,7 @@ const index = () => {
                         </ol>
                     </div>
 
-                    <div className="v-task-right-bottom d-flex justify-content-end">
+                    <div className="v-task-right-bottom d-flex justify-content-end gap-2">
                         <img className='v-task-icon' src={Basketicon} />
                         <img className='v-task-icon' src={TaskSearchIcon} />
                     </div>

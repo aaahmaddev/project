@@ -15,7 +15,7 @@ const index = () => {
 
 
             <section className='dashboard bgc-whitee pt-2'>
-                <div className="container-fluid">
+                <div className="">
                     <div className="sec-inner d-flex  mt-5 justify-content-between gap-5 col-8">
 
                         <Sidebar />

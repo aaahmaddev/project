@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css'
 import { NavLink } from 'react-router-dom';
 import ProfileIamge from '../../assets/images/dashboard/profile.png'
-import DashIcon from '../../assets/images/dashboard/dashlogo.png'
+import DashIcon from '../../assets/images/vital/dashIconWhite.png'
 import ViTaskIcon from '../../assets/images/dashboard/tasckicon.png'
 import MyTaskIcon from '../../assets/images/dashboard/mytaskicon.png'
 import Settingsicon from '../../assets/images/dashboard/settingicon.png'
@@ -25,18 +25,19 @@ const index = () => {
                     </div>
                 </NavLink>
 
-                <div className="dash-box d-flex align-items-center ps-3 gap-3">
-                    <img src={DashIcon} />
-                    <p className="dash-text m-0">Dashboard</p>
-                </div>
-
-                <NavLink to="/vitals" className='text-decoration-none'>
-                    <div className="v-task-box d-flex align-items-center ps-3 gap-3">
-                        <img src={ViTaskIcon} />
-                        <p className="v-task-text m-0">Vital Task</p>
+                <NavLink className='text-decoration-none' to='/'>
+                    <div className="dash-box3 d-flex align-items-center ps-4 gap-3">
+                        <img src={DashIcon} />
+                        <p className="dash-text3 m-0">Dashboard</p>
                     </div>
                 </NavLink>
 
+                <NavLink className='text-decoration-none' to='/vitals'>
+                    <div className="v-task-box3 d-flex align-items-center ps-4 gap-3">
+                        <img src={ViTaskIcon} />
+                        <p className="v-task-text3 m-0">Vital Task</p>
+                    </div>
+                </NavLink>
                 <div className="my-task-box d-flex align-items-center ps-2 gap-3">
                     <img src={MyTaskIcon} />
                     <p className="my-task-text m-0">My Task</p>

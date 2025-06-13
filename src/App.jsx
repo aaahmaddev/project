@@ -4,6 +4,7 @@ import Home from '../src/pages/home'
 import SignUp from '../src/pages/signup'
 import SignIn from '../src/pages/signin'
 import Vitals from '../src/pages/vitals'
+import Account from '../src/pages/account'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Route path='/signup' element={<SignUp />}/>
         <Route path='/signin' element={<SignIn/>}/>
         <Route path='/vitals' element={<Vitals/>}/>
+        <Route path='/account' element={<Account/>}/>
       </Routes>
     </>
   )

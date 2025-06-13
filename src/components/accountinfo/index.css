@@ -1,0 +1,38 @@
+.account-info , 
+.account-info-bottom{
+    border: 1px solid var(--text-darkgray);
+    border-radius: 16px;
+}
+.account-info-bottom{
+    background-color: transparent;
+}
+
+.account-info-line{
+    width: 161px;
+    border: 2px solid #F24E1E;
+}
+.account-info-input{
+    width: 511px;
+    height: 37px;
+    border-radius: 6px;
+    border: 1px solid var(--text-darkgray);
+    background-color: transparent;
+}
+
+.account-info-btn:first-child{
+    width: 131px;
+    height: 34px;
+    background-color: #F24E1E;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+}
+
+.account-info-btn:last-child{
+    width: 167px;
+    height: 34px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    background-color: #F24E1E;
+}

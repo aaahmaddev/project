@@ -17,11 +17,14 @@ const index = () => {
         <>
 
             <div className="navigation col-4 d-flex flex-wrap align-items-center justify-content-center p-3 mt-1">
-                <div className="profile-box text-center text-white">
-                    <img className='dash-profile-img mb-4' src={ProfileIamge} />
-                    <h5 className='prfile-name m-0'>Sundar Gurung</h5>
-                    <p className='profile-email mt-1'>sundargurung360@gmail.com</p>
-                </div>
+                <NavLink className='text-decoration-none' to='/account'>
+                    <div className="profile-box text-center text-white">
+                        <img className='dash-profile-img mb-4' src={ProfileIamge} />
+                        <h5 className='prfile-name m-0 text-light'>Sundar Gurung</h5>
+                        <p className='profile-email mt-1 text-light'>sundargurung360@gmail.com</p>
+                    </div>
+                </NavLink>
+
                 <NavLink className='text-decoration-none' to='/'>
                     <div className="dash-boxx d-flex align-items-center ps-3 gap-3">
                         <img src={DashIcon} />

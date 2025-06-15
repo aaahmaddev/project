@@ -6,6 +6,7 @@ import SignIn from '../src/pages/signin'
 import Vitals from '../src/pages/vitals'
 import Account from '../src/pages/account'
 import MyTask from '../src/pages/mytask'
+import TestPage from '../src/pages/test'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path='/vitals' element={<Vitals/>}/>
         <Route path='/account' element={<Account/>}/>
         <Route path='/mytask' element={<MyTask/>}/>
+        <Route path='/test' element={<TestPage/>}/>
       </Routes>
     </>
   )

@@ -77,3 +77,105 @@
     border-radius: 50%;
     border: 2px solid var(--text-green);
 }
+
+.modal-center{
+    border: 1px solid #A1A3ABA3;
+}
+
+.modal-btn {
+    width: 90px;
+    height: 34px;
+    background-color: #F24E1E;
+    border-radius: 6px;
+    color: #fff;
+    border: none;
+}
+
+.modal-header-line {
+    width: 96px;
+    border: 1px solid #F24E1E;
+}
+
+.modal-nav {
+    color: #000000;
+}
+
+.modal-input {
+    width: 511px;
+    height: 37px;
+    border-radius: 6px;
+    border: 1px solid var(--text-darkgray);
+}
+
+.piority-circle {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 5px solid #F21E1E;
+}
+
+.piority-circle2 {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 5px solid #3ABEFF;
+}
+
+.piority-circle3 {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 5px solid #05A301;
+}
+
+.input-description {
+    width: 511px;
+    height: 205px;
+    border-radius: 6px;
+    border: 1px solid var(--text-darkgray);
+    padding-bottom: 190px;
+    padding-right: 1px;
+}
+
+.upload-box {
+    border: 1px solid #A1A3AB;
+    border-radius: 8px;
+    width: 210px;
+    height: 205px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #A1A3AB;
+    cursor: pointer;
+}
+
+.upload-icon img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.upload-box p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.upload-box span {
+    display: block;
+    margin: 10px 0;
+    font-size: 13px;
+}
+
+.browse-btn {
+    padding: 8px 18px;
+    font-size: 14px;
+    border: 1px solid #A1A3AB;
+    border-radius: 6px;
+    background: none;
+    cursor: pointer;
+    color: #A1A3AB;
+}
+
+.browse-btn:hover {
+    background-color: #f1f1f1;
+}

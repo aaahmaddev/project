@@ -26,14 +26,14 @@ const index = () => {
                 </NavLink>
 
                 <NavLink className='text-decoration-none' to='/'>
-                    <div className="dash-box3 d-flex align-items-center ps-4 gap-3">
+                    <div className="dash-box3 d-flex align-items-center ps-3 gap-3">
                         <img src={DashIcon} />
                         <p className="dash-text3 m-0">Dashboard</p>
                     </div>
                 </NavLink>
 
                 <NavLink className='text-decoration-none' to='/vitals'>
-                    <div className="v-task-box3 d-flex align-items-center ps-4 gap-3">
+                    <div className="v-task-box3 d-flex align-items-center ps-3 gap-3">
                         <img src={ViTaskIcon} />
                         <p className="v-task-text3 m-0">Vital Task</p>
                     </div>

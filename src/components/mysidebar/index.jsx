@@ -3,8 +3,8 @@ import './index.css'
 import { NavLink } from 'react-router-dom';
 import ProfileIamge from '../../assets/images/dashboard/profile.png'
 import DashIcon from '../../assets/images/vital/dashIconWhite.png'
-import ViTaskIcon from '../../assets/images/vital/vitalIconRed.png'
-import MyTaskIcon from '../../assets/images/dashboard/mytaskicon.png'
+import ViTaskIcon from '../../assets/images/dashboard/tasckicon.png'
+import MyTaskIcon from '../../assets/images/my task/mytaskred.png'
 import Settingsicon from '../../assets/images/dashboard/settingicon.png'
 import LogOutIcon from '../../assets/images/dashboard/logouticon.png'
 
@@ -25,32 +25,31 @@ const index = () => {
                     </div>
                 </NavLink>
 
-                <NavLink className='text-decoration-none' to='/'>
-                    <div className="dash-boxx d-flex align-items-center ps-3 gap-3">
+                <NavLink to='/' className='text-decoration-none'>
+                    <div className="dash-box4 d-flex align-items-center ps-3 gap-3 text-white">
                         <img src={DashIcon} />
                         <p className="dash-text m-0">Dashboard</p>
                     </div>
                 </NavLink>
-
-            
-                <div className="v-task-boxx d-flex align-items-center ps-3 gap-3">
-                    <img src={ViTaskIcon} />
-                    <p className="v-task-text m-0">Vital Task</p>
-                </div>
+                <NavLink to="/vitals" className='text-decoration-none'>
+                    <div className="v-task-box4 d-flex align-items-center ps-3 gap-3">
+                        <img src={ViTaskIcon} />
+                        <p className="v-task-text m-0">Vital Task</p>
+                    </div>
+                </NavLink>
 
                 <NavLink to='/mytask' className='text-decoration-none'>
-                    <div className="my-task-box d-flex align-items-center ps-2 gap-3">
+                    <div className="my-task-box4 d-flex align-items-center ps-2 gap-3">
                         <img src={MyTaskIcon} />
                         <p className="my-task-text m-0">My Task</p>
                     </div>
                 </NavLink>
-
-                <div className="setting-box d-flex align-items-center ps-2 gap-3">
+                <div className="setting-box4 d-flex align-items-center ps-2 gap-3">
                     <img src={Settingsicon} />
                     <p className="setting-text m-0">Settings</p>
                 </div>
 
-                <div className="logout-box d-flex align-items-center ps-2 gap-3 align-items-end">
+                <div className="logout-box4 d-flex align-items-center ps-2 gap-3 align-items-end">
                     <img src={LogOutIcon} />
                     <p className="logout-text m-0">Log Out</p>
                 </div>

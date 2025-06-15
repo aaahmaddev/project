@@ -31,17 +31,18 @@ const index = () => {
                 </div>
 
                 <NavLink to="/vitals" className='text-decoration-none'>
-                    <div className="v-task-box d-flex align-items-center ps-3 gap-3">
+                    <div className="v-task-box d-flex align-items-center ps-4 gap-3">
                         <img src={ViTaskIcon} />
                         <p className="v-task-text m-0">Vital Task</p>
                     </div>
                 </NavLink>
 
-                <div className="my-task-box d-flex align-items-center ps-2 gap-3">
-                    <img src={MyTaskIcon} />
-                    <p className="my-task-text m-0">My Task</p>
-                </div>
-
+                <NavLink to='/mytask' className='text-decoration-none'>
+                    <div className="my-task-box d-flex align-items-center ps-3 gap-3">
+                        <img src={MyTaskIcon} />
+                        <p className="my-task-text m-0">My Task</p>
+                    </div>
+                </NavLink>
                 <div className="setting-box d-flex align-items-center ps-2 gap-3">
                     <img src={Settingsicon} />
                     <p className="setting-text m-0">Settings</p>

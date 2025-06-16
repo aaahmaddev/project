@@ -16,7 +16,7 @@ const index = () => {
     return (
         <>
 
-            <div className="navigation col-4 d-flex flex-wrap align-items-center justify-content-center p-3 mt-1">
+            <div className="navigation d-flex col-4 flex-wrap align-items-center justify-content-center mt-1">
                 <NavLink className='text-decoration-none' to='/account'>
                     <div className="profile-box text-center text-white">
                         <img className='dash-profile-img mb-4' src={ProfileIamge} />
@@ -26,35 +26,38 @@ const index = () => {
                 </NavLink>
 
                 <NavLink className='text-decoration-none' to='/'>
-                    <div className="dash-boxx d-flex align-items-center ps-3 gap-3">
+                    <div className="dash-boxx d-flex align-items-center ps-4 gap-3">
                         <img src={DashIcon} />
                         <p className="dash-text m-0">Dashboard</p>
                     </div>
                 </NavLink>
 
-            
-                <div className="v-task-boxx d-flex align-items-center ps-3 gap-3">
-                    <img src={ViTaskIcon} />
-                    <p className="v-task-text m-0">Vital Task</p>
-                </div>
+                <NavLink className='text-decoration-none' to='/vitals'>
+                    <div className="v-task-boxx d-flex align-items-center ps-4 gap-3">
+                        <img src={ViTaskIcon} />
+                        <p className="v-task-text m-0">Vital Task</p>
+                    </div>
+                </NavLink>
 
                 <NavLink to='/mytask' className='text-decoration-none'>
-                    <div className="my-task-box d-flex align-items-center ps-2 gap-3">
+                    <div className="my-task-box d-flex align-items-center ps-4 gap-3">
                         <img src={MyTaskIcon} />
                         <p className="my-task-text m-0">My Task</p>
                     </div>
                 </NavLink>
+                <NavLink className='text-decoration-none'>
+                    <div className="setting-box d-flex align-items-center ps-4 gap-3">
+                        <img src={Settingsicon} />
+                        <p className="setting-text m-0">Settings</p>
+                    </div>
+                </NavLink>
 
-                <div className="setting-box d-flex align-items-center ps-2 gap-3">
-                    <img src={Settingsicon} />
-                    <p className="setting-text m-0">Settings</p>
-                </div>
-
-                <div className="logout-box d-flex align-items-center ps-2 gap-3 align-items-end">
-                    <img src={LogOutIcon} />
-                    <p className="logout-text m-0">Log Out</p>
-                </div>
-
+                <NavLink className='text-decoration-none' to='/signin'>
+                    <div className="logout-box d-flex align-items-center ps-4 gap-3">
+                        <img src={LogOutIcon} />
+                        <p className="logout-text m-0">Log Out</p>
+                    </div>
+                </NavLink>
 
             </div>
 

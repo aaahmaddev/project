@@ -23,3 +23,21 @@
     color: #fff;
     cursor: pointer;
 }
+
+.dash-box4:hover{
+    background-color: rgba(255, 255, 255, 0.474);
+    transition: 0.8s;
+}
+.v-task-box4:hover{
+    background-color: rgba(255, 255, 255, 0.474);
+    transition: 0.8s;
+}
+
+.setting-box4:hover{
+    background-color: rgba(255, 255, 255, 0.474);
+    transition: 0.8s;
+}
+.logout-box4:hover{
+    background-color: rgba(255, 255, 255, 0.474);
+    transition: 0.8s;
+}

@@ -1,5 +1,5 @@
-.v-tasks-left{
-    width: 423px;
+.v-tasks-leftt{
+    width: 488px;
     height: 837px;
     border: 1px solid #A1A3ABA1;
     border-radius: 14px;
@@ -21,10 +21,12 @@
 .v-task-right{
     border: 2px solid #A1A3ABA1;
     border-radius: 14px;
-    width: 511px;
+    width: 501px;
     margin-right: 10px;
 }
 .v-task-dog-img{
     width: 158px;
     height: 158px;
 }
+
+

@@ -9,7 +9,7 @@ const index = () => {
     return (
         <>
             <div className="v-tasks-box d-flex gap-2">
-                <div className="v-tasks-left p-4">
+                <div className="v-tasks-leftt p-4">
 
                     <div className='v-tasks-left-title'>
                         <h4>Vital Tasks</h4>
@@ -44,7 +44,7 @@ const index = () => {
                             <div className="card-dog-bottom mt-2 ps-3 d-flex align-items-center gap-1">
                                 <p className='me-1 m-0'>
                                     Priority:
-                                    <span className='card-p-b-1'>
+                                    <span className='card-p-b-1 blue'>
                                         Moderate
                                     </span>
                                 </p>
@@ -92,7 +92,7 @@ const index = () => {
                         <div className="card-party-bottom mt-2 ps-3 d-flex align-items-center gap-1">
                             <p className='me-1 m-0'>
                                 Priority:
-                                <span className='card-p-b-1'>
+                                <span className='card-p-b-1 blue'>
                                     Moderate
                                 </span>
                             </p>

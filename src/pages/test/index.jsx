@@ -1,28 +1,29 @@
 import React from 'react';
+import './index.css'
+import { NavLink } from 'react-router-dom';
+import ProfileIamge from '../../assets/images/dashboard/profile.png'
+import DashIcon from '../../assets/images/vital/dashIconWhite.png'
+import ViTaskIcon from '../../assets/images/vital/vitalIconRed.png'
+import MyTaskIcon from '../../assets/images/dashboard/mytaskicon.png'
+import Settingsicon from '../../assets/images/dashboard/settingicon.png'
+import LogOutIcon from '../../assets/images/dashboard/logouticon.png'
 
 const index = () => {
     return (
         <>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Launch demo modal
-            </button>
-
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            ...
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
+            <div className="navigation col-4 d-flex flex-wrap align-items-center p-3 mt-1 justify-content-center">
+                <NavLink className='text-decoration-none' to='/account'>
+                    <div className="profile-box text-center text-white">
+                        <img className='dash-profile-img mb-4' src={ProfileIamge} />
+                        <h5 className='prfile-name m-0 text-light'>Sundar Gurung</h5>
+                        <p className='profile-email mt-1 text-light'>sundargurung360@gmail.com</p>
                     </div>
-                </div>
+                </NavLink>
+
+                <ul>
+                    
+                </ul>
+
             </div>
         </>
     );

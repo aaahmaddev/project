@@ -11,6 +11,12 @@
     color: #FF6767;
     border-radius: 14px;
 }
+.profile-box{
+    width: 288px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 14px;
+}
 
 .v-task-box,
 .my-task-box,
@@ -21,4 +27,25 @@
     border-radius: 14px;
     color: #fff;
     cursor: pointer;
+}
+
+.v-task-box:hover{
+    background-color: rgba(255, 255, 255, 0.474);
+    transition: 0.8s;
+}
+.my-task-box:hover{
+    background-color: rgba(255, 255, 255, 0.474);
+    transition: 0.8s;
+}
+.setting-box:hover{
+    background-color: rgba(255, 255, 255, 0.474);
+    transition: 0.8s;
+}
+.logout-box:hover{
+    background-color: rgba(255, 255, 255, 0.474);
+    transition: 0.8s;
+}
+.profile-box:hover{
+    background-color: rgba(255, 255, 255, 0.474);
+    transition: 0.8s;
 }

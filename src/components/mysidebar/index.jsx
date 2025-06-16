@@ -26,34 +26,39 @@ const index = () => {
                 </NavLink>
 
                 <NavLink to='/' className='text-decoration-none'>
-                    <div className="dash-box4 d-flex align-items-center ps-3 gap-3 text-white">
+                    <div className="dash-box4 d-flex align-items-center ps-4 gap-3 text-white">
                         <img src={DashIcon} />
                         <p className="dash-text m-0">Dashboard</p>
                     </div>
                 </NavLink>
+
                 <NavLink to="/vitals" className='text-decoration-none'>
-                    <div className="v-task-box4 d-flex align-items-center ps-3 gap-3">
+                    <div className="v-task-box4 d-flex align-items-center ps-4 gap-3">
                         <img src={ViTaskIcon} />
                         <p className="v-task-text m-0">Vital Task</p>
                     </div>
                 </NavLink>
 
                 <NavLink to='/mytask' className='text-decoration-none'>
-                    <div className="my-task-box4 d-flex align-items-center ps-2 gap-3">
+                    <div className="my-task-box4 d-flex align-items-center ps-4 gap-3">
                         <img src={MyTaskIcon} />
                         <p className="my-task-text m-0">My Task</p>
                     </div>
                 </NavLink>
-                <div className="setting-box4 d-flex align-items-center ps-2 gap-3">
-                    <img src={Settingsicon} />
-                    <p className="setting-text m-0">Settings</p>
-                </div>
 
-                <div className="logout-box4 d-flex align-items-center ps-2 gap-3 align-items-end">
-                    <img src={LogOutIcon} />
-                    <p className="logout-text m-0">Log Out</p>
-                </div>
+                <NavLink className='text-decoration-none'>
+                    <div className="setting-box4 d-flex align-items-center ps-4 gap-3">
+                        <img src={Settingsicon} />
+                        <p className="setting-text m-0">Settings</p>
+                    </div>
+                </NavLink>
 
+                <NavLink className='text-decoration-none' to='/signin'>
+                    <div className="logout-box4 d-flex align-items-center ps-4 gap-3 align-items-end">
+                        <img src={LogOutIcon} />
+                        <p className="logout-text m-0">Log Out</p>
+                    </div>
+                </NavLink>
 
             </div>
 

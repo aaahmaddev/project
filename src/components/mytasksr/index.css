@@ -1,5 +1,9 @@
+.blue{
+    color: #42ADE2;
+}
+
 .v-tasks-left{
-    width: 423px;
+    width: 471px;
     height: 837px;
     border: 1px solid #A1A3ABA1;
     border-radius: 14px;
@@ -21,7 +25,7 @@
 .v-task-right{
     border: 2px solid #A1A3ABA1;
     border-radius: 14px;
-    width: 511px;
+    width: 501px;
     margin-right: 10px;
 }
 .v-task-dog-img{

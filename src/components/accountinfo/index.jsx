@@ -29,25 +29,25 @@ const index = () => {
                     </div>
                 </div>
                 <div className="account-info-bottom p-4">
-                    <label htmlFor="First Name" className='fw-medium'>
+                    <label htmlFor="First Name" className='fw-medium col-12'>
                         First Name
                         <br />
                         <input className='account-info-input' type="text" />
                     </label>
 
-                    <label htmlFor="Last Name" className='fw-medium mt-4'>
+                    <label htmlFor="Last Name" className='fw-medium mt-4 col-12'>
                         Last Name
                         <br />
                         <input className='account-info-input' type="text" />
                     </label>
 
-                    <label htmlFor="Email Address" className='fw-medium mt-4'>
+                    <label htmlFor="Email Address" className='fw-medium mt-4 col-12'>
                         Email Address
                         <br />
                         <input className='account-info-input' type="email" />
                     </label>
 
-                    <label htmlFor="Contackt Number" className='fw-medium mt-4'>
+                    <label htmlFor="Contackt Number" className='fw-medium mt-4 col-12'>
                         Contackt Number
                         <br />
                         <input className='account-info-input' type="number" />

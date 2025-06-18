@@ -9,7 +9,7 @@
     --text-darkwhite: #F5F8FF;
 }
 
-.bgc-whitee{
+.bgc-whitee {
     background-color: #F5F8FF;
 }
 
@@ -41,6 +41,7 @@
     color: var(--text-green);
 }
 
-.pointer{
+.pointer {
     cursor: pointer;
 }
+

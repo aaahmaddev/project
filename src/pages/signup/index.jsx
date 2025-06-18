@@ -17,10 +17,10 @@ const index = () => {
                     <div className="signup-inner">
 
 
-                        <div className="signup-left col-6">
+                        <div className="signup-left col-6" data-aos="fade-right">
                             <img className='signup-img img-fluid' src={SignUpImg} />
                         </div>
-                        <div className="signup-right col-6">
+                        <div className="signup-right col-6" data-aos="fade-left">
                             <h1 className="signup-r-title fw-bold mb-4">
                                 Sign Up
                             </h1>

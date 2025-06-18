@@ -7,7 +7,7 @@ import AccountImg from '../../assets/images/dashboard/profile.png'
 const index = () => {
     return (
         <>
-            <div className="account-info col-12 p-4">
+            <div className="account-info col-12 p-4" data-aos="fade-left">
                 <div className="account-info-top d-flex align-items-center justify-content-between">
                     <div className="account-info-title-box">
                         <h3 className='fw-medium mt-4'>Account Information</h3>

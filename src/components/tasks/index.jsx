@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Aos from 'aos';
 import './index.css'
 
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
@@ -15,10 +16,13 @@ import DragImg from '../../assets/images/modal/dragimg.png'
 
 
 const index = () => {
+
+    Aos.init()
+
     return (
         <>
 
-            <div className="tasks-box">
+            <div className="tasks-box" data-aos='fade-left'>
 
 
                 <h1>Welcome back, Sundar👋</h1>

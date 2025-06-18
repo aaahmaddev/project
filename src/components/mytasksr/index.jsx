@@ -8,7 +8,7 @@ import TaskSearchIcon from '../../assets/images/vital/SearchICon.png'
 const index = () => {
     return (
         <>
-            <div className="v-tasks-box d-flex gap-2">
+            <div className="v-tasks-box d-flex gap-2" data-aos="fade-left">
                 <div className="v-tasks-left p-3">
 
                     <div className='v-tasks-left-title'>

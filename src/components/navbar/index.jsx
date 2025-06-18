@@ -14,7 +14,7 @@ const Header = () => {
 
     return (
         <>
-            <header>
+            <header data-aos="fade-down">
                 <div className="header-container">
                     <div className="header-inner d-flex align-items-center justify-content-between">
 

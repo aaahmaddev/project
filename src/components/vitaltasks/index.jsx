@@ -11,7 +11,7 @@ const index = () => {
 
 
 
-            <div className="v-tasks-box d-flex gap-2">
+            <div className="v-tasks-box d-flex gap-2" data-aos="fade-left">
                 <div className="v-tasks-leftt p-4">
 
                     <div className='v-tasks-left-title'>

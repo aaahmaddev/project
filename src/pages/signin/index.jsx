@@ -14,7 +14,7 @@ const index = () => {
                 <div className="container">
                     <div className="signin-inner">
                         {/* Left */}
-                        <div className="sigin-left col-6 d-flex justify-content-start align-items-center flex-wrap">
+                        <div className="sigin-left col-6 d-flex justify-content-start align-items-center flex-wrap" data-aos="fade-right">
                             <div className="sigin-left-inner">
                                 <h1 className='signin-title mb-3'>Sign in</h1>
                                 <form action="#">
@@ -47,7 +47,7 @@ const index = () => {
 
                         {/* Right */}
 
-                        <div className="signin-right col-6">
+                        <div className="signin-right col-6" data-aos="fade-left">
                             <img className='signin-img img-fluid' src={SignInImg} />
                         </div>
                     </div>

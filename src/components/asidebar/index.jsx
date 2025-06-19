@@ -16,7 +16,7 @@ const index = () => {
     return (
         <>
 
-            <div className="navigation col-4 mt-1 ">
+            <div className="navigation col-3 mt-1 ">
 
                 <div className="sidebar-top">
                     <NavLink className='text-decoration-none' to='/account'>
@@ -36,28 +36,28 @@ const index = () => {
                     </NavLink>
 
                     <NavLink to="/vitals" className='text-decoration-none'>
-                        <div className="v-task-box3 d-flex align-items-center p-3 mt-2">
+                        <div className="v-task-box3 d-flex align-items-center p-3 mt-4">
                             <img className='me-4' src={ViTaskIcon} />
                             <p className="v-task-text m-0">Vital Task</p>
                         </div>
                     </NavLink>
 
                     <NavLink to='/mytask' className='text-decoration-none'>
-                        <div className="my-task-box d-flex align-items-center p-2 mt-2">
+                        <div className="my-task-box d-flex align-items-center p-2 mt-4">
                             <img className='me-4' src={MyTaskIcon} />
                             <p className="my-task-text m-0">My Task</p>
                         </div>
                     </NavLink>
 
                     <NavLink className='text-decoration-none'>
-                        <div className="setting-box d-flex align-items-center p-2 mt-2">
+                        <div className="setting-box d-flex align-items-center p-2 mt-4">
                             <img className='me-4' src={Settingsicon} />
                             <p className="setting-text m-0">Settings</p>
                         </div>
                     </NavLink>
 
                     <NavLink className='text-decoration-none' to='/signin'>
-                        <div className="logout-box d-flex align-items-center p-2 mt-2">
+                        <div className="logout-box d-flex align-items-center p-2 mt-4">
                             <img className='me-4' src={LogOutIcon} />
                             <p className="logout-text m-0">Log Out</p>
                         </div>

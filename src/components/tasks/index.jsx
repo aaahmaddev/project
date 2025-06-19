@@ -22,7 +22,7 @@ const index = () => {
     return (
         <>
 
-            <div className="tasks-box" data-aos='fade-left'>
+            <div className="tasks-box">
 
 
                 <h1>Welcome back, Sundar👋</h1>
